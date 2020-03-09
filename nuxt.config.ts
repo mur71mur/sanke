@@ -32,7 +32,7 @@ const config: Configuration = {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: [{ src: '~/plugins/mixins' }],
   /*
    ** Nuxt.js dev-modules
    */
