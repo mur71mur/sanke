@@ -97,6 +97,9 @@ const config: Configuration = {
         })
       ]
     }
+  },
+  generate: {
+    fallback: true
   }
 }
 
